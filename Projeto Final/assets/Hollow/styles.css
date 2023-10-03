@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', cursive;
+}
+
+header {
+    width: 1920px;
+    height: 1080px;
+}
+
+header a {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+}
+ 
+.info {
+    top: 15%;
+    left: 37%;
+}
+
+.req {
+    top: 15%;
+    left: 47%;
+}
+
+.log {
+    top: 15%;
+    left: 57%;
+}
+
+.content {
+    padding: 20px;
+    opacity: 0; /* Inicialmente, ocultamos o conteúdo */
+    transition: opacity 0.5s ease-in-out; /* Adicionamos uma transição de opacidade */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+* {
+    font-family: 'Gabarito', cursive;
+}
+
+.div-topo {
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    opacity: 0; /* Inicialmente, a caixa está invisível */
+    transition: opacity 0.5s ease; /* Adicionando uma transição de opacidade */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.box img {
+    height: 350px;
+}
+
+.box p {
+    color: white;
+    font-size: 16px;
+}
+
+.box.in-view {
+    opacity: 1; /* Quando a classe 'in-view' é aplicada, a caixa fica visível */
+}
+
+#informacoes {
+    background-color: black;
+}
+
+#informacoes h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#requisitos {
+    background-color: black;
+}
+
+#requisitos h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#requisitos h2 {
+    color: white;
+    font-size: 16;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#requisitos p {
+    color: white;
+    font-size: 16;
+    margin: 0;
+}
+
+.text-style {
+    padding: 20px 0 20px 0;
+}
+
+.requisitos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#comprar {
+    background-color: black;
+}
+
+#comprar h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#comprar img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
